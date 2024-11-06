@@ -40,43 +40,45 @@ st.title("Linux Distributions' Popularity")
 st.sidebar.title("Explore Linux Distributions")
 all_option = "ALL"
 exclude_option = "Exclude"
-selected_distributions = st.sidebar.multiselect("Select distributions to display", [all_option] + distributions, default=[all_option])
-excluded_distributions = st.sidebar.multiselect("Exclude distributions", distributions, default=[])
-sort_by = st.sidebar.selectbox("Sort by", ["Popularity", "Alphabetical"])
+selected_distributions = st.sidebar.multiselect("Select Distributions to Display", [all_option] + distributions, default=[all_option])
+excluded_distributions = st.sidebar.multiselect("Exclude Distributions", distributions, default=[])
+min_members = st.sidebar.number_input("Minimum Popularity", min_value=0, step=1, value=0)
 
 if all_option in selected_distributions:
-    selected_distributions = [d for d in distributions if d not in excluded_distributions]
+    selected_distributions = [d for d in distributions if d not in excluded_distributions and popularity[distributions.index(d)] >= min_members]
 else:
-    selected_distributions = [d for d in selected_distributions if d != all_option and d not in excluded_distributions]
+    selected_distributions = [d for d in selected_distributions if d != all_option and d not in excluded_distributions and popularity[distributions.index(d)] >= min_members]
 
-fig1, ax1 = plt.subplots(figsize=(12, 8))
-ax1.barh(selected_distributions, [popularity[distributions.index(d)] for d in selected_distributions], color='skyblue')
-ax1.set_xlabel('Popularity')
-ax1.set_ylabel('Linux Distributions')
-ax1.set_title('Popularity of Selected Linux Distributions')
-plt.tight_layout()
-st.pyplot(fig1)
-
-fig2, ax2 = plt.subplots(figsize=(10, 10))
-ax2.pie([popularity[distributions.index(d)] for d in selected_distributions], labels=selected_distributions, autopct='%1.1f%%', startangle=140)
-ax2.axis('equal')
-ax2.set_title('Distribution of Popularity Among Selected Distributions')
-plt.tight_layout()
-st.pyplot(fig2)
-
-fig3, ax3 = plt.subplots(figsize=(10, 6))
-ax3.hist([popularity[distributions.index(d)] for d in selected_distributions], bins=20, color='lightgreen', edgecolor='black')
-ax3.set_xlabel('Popularity')
-ax3.set_ylabel('Frequency')
-ax3.set_title('Distribution of Popularity Scores for Selected Distributions')
-plt.tight_layout()
-st.pyplot(fig3)
-
-data = pd.DataFrame({'Distribution': distributions, 'Popularity': popularity})
-if sort_by == "Popularity":
+try:
+    data = pd.DataFrame({'Distribution': distributions, 'Popularity': popularity})
     data = data.sort_values(by='Popularity', ascending=False)
-else:
-    data = data.sort_values(by='Distribution')
 
-st.header("Ranking of Linux Distributions")
-st.dataframe(data[['Distribution', 'Popularity']][data['Distribution'].isin(selected_distributions)], use_container_width=True)
+    st.header("Ranking")
+    st.dataframe(data[['Distribution', 'Popularity']][data['Distribution'].isin(selected_distributions)], use_container_width=True)
+
+    fig2, ax2 = plt.subplots(figsize=(10, 10))
+    ax2.pie([popularity[distributions.index(d)] for d in selected_distributions], labels=selected_distributions, autopct='%1.1f%%', startangle=140)
+    ax2.axis('equal')
+    ax2.set_title('Distribution of Popularity Among Selected Distributions')
+    plt.tight_layout()
+    st.pyplot(fig2)
+
+    fig1, ax1 = plt.subplots(figsize=(12, 8))
+    ax1.barh(selected_distributions, [popularity[distributions.index(d)] for d in selected_distributions], color='skyblue')
+    ax1.set_xlabel('Popularity')
+    ax1.set_ylabel('Linux Distributions')
+    ax1.set_title('Popularity of Selected Linux Distributions')
+    plt.tight_layout()
+    st.pyplot(fig1)
+
+    fig3, ax3 = plt.subplots(figsize=(10, 6))
+    ax3.hist([popularity[distributions.index(d)] for d in selected_distributions], bins=20, color='lightgreen', edgecolor='black')
+    ax3.set_xlabel('Popularity')
+    ax3.set_ylabel('Frequency')
+    ax3.set_title('Distribution of Popularity Scores for Selected Distributions')
+    plt.tight_layout()
+    st.pyplot(fig3)
+
+except Exception as e:
+    st.error(f"An error occurred: {e}")
+    st.stop()
