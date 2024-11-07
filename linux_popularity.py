@@ -63,10 +63,7 @@ filtered_data = filter_data(data, selected_distributions, excluded_distributions
 
 # Display Ranking
 st.header("Ranking")
-if not filtered_data.empty:
-    st.dataframe(filtered_data[['Distribution', 'Popularity']], use_container_width=True)
-else:
-    st.write("No Distributions Match The Selected Criteria.")
+st.dataframe(filtered_data[['Distribution', 'Popularity']], use_container_width=True)
 
 # Helper Function For Creating Plots
 def plot_chart(plot_type, data, title, x_label="", y_label="", **kwargs):
@@ -88,8 +85,7 @@ def plot_chart(plot_type, data, title, x_label="", y_label="", **kwargs):
     plt.tight_layout()
     st.pyplot(fig)
 
-# Generate Visualizations If Data Is Not Empty
-if not filtered_data.empty:
-    plot_chart('pie', filtered_data, title="Distribution Of Popularity Among Selected Distributions")
-    plot_chart('barh', filtered_data, title="Popularity Of Selected Linux Distributions", x_label="Popularity", y_label="Linux Distributions")
-    plot_chart('hist', filtered_data, title="Distribution Of Popularity Scores For Selected Distributions", x_label="Popularity", y_label="Frequency")
+# Generate Visualizations
+plot_chart('pie', filtered_data, title="Distribution Of Popularity Among Selected Distributions")
+plot_chart('barh', filtered_data, title="Popularity Of Selected Linux Distributions", x_label="Popularity", y_label="Linux Distributions")
+plot_chart('hist', filtered_data, title="Distribution Of Popularity Scores For Selected Distributions", x_label="Popularity", y_label="Frequency")
