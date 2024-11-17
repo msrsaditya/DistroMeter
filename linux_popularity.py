@@ -7,31 +7,32 @@ st.set_page_config(page_title="Linux Distributions' Popularity")
 
 # Define Distributions And Popularity Data
 distributions = [
-    "ChromeOS", "Arch Linux", "Ubuntu", "Tails", "Fedora", "Kali Linux", "Linux Mint", 
-    "Debian", "Pop!_OS", "Manjaro Linux", "Red Hat", "openSUSE", "Gentoo", "NixOS", 
-    "elementary OS", "SteamOS", "CentOS", "Qubes OS", "Void Linux", "EndeavourOS", 
-    "Kubuntu", "Solus Project", "Whonix", "Asahi Linux", "Rocky Linux", "Zorin OS", 
-    "MX Linux", "KDE neon", "Linux from Scratch", "Nobara Project", "Lubuntu", 
-    "AlmaLinux", "Xubuntu", "Garuda Linux", "Slackware", "Parrot OS", "deepin", 
-    "Alpine Linux", "Guix", "CrunchBang", "Bedrock Linux", "HoloISO", "ArcoLinux", 
-    "Antergos", "CrunchBangplusplus", "Puppy Linux", "Raspbian", "BlackArch Official", 
-    "Clear Linux", "VanillaOS", "KISS Linux", "CachyOS", "Peppermint OS", "Mageia", 
-    "Parabola", "antiX Linux", "Bodhi Linux", "Feren OS", "Linux Lite", 
-    "Official Arch Labs Linux", "RedStar OS", "Tiny Core Linux", "GeckoLinux", 
-    "Sabayon", "Q4OS", "RhinoLinux", "BackBox", "ArchBang", "Oracle Linux", 
-    "OpenMandriva", "Crux Linux", "Exherbo", "Kinoite", "Scientific Linux", 
-    "Venom Linux", "Anarchy Linux", "RLXOS Dev", "KaOS", "Alt Linux"
+    "chromeos", "archlinux", "Ubuntu", "Fedora", "tails", "linuxmint", 
+    "Kalilinux", "debian", "pop_os", "ManjaroLinux", "redhat", "openSUSE", 
+    "NixOS", "Gentoo", "elementaryos", "SteamOS", "CentOS", "EndeavourOS", 
+    "Qubes", "voidlinux", "Kubuntu", "SolusProject", "AsahiLinux", 
+    "Whonix", "RockyLinux", "zorinos", "MXLinux", "NobaraProject", 
+    "linuxfromscratch", "kdeneon", "AlmaLinux", "GarudaLinux", "Lubuntu", 
+    "xubuntu", "slackware", "ParrotOS", "AlpineLinux", "GUIX", "deepin", 
+    "cachyos", "CrunchBang", "bedrocklinux", "holoiso", "ArcoLinux", 
+    "crunchbangplusplus", "puppylinux", "antergos", "vanillaos", 
+    "BlackArchOfficial", "raspbian", "ClearLinux", "kisslinux", 
+    "PeppermintOS", "antiXLinux", "Mageia", "bodhilinux", "Parabola", 
+    "FerenOS", "LinuxLite", "RedStarOS", "OfficialArchLabsLinux", 
+    "tinycorelinux", "Q4OS", "geckolinux", "sabayon", "OracleLinux", 
+    "rhinolinux", "BackBox", "archbang", "OpenMandriva", "cruxlinux", 
+    "kinoite", "exherbo", "scientificlinux", "venomlinux", "AnarchyLinux", 
+    "rlxos_dev", "kaos", "AltLinux"
 ]
 
 popularity = [
-    573991, 272553, 234021, 107725, 106591, 103750, 103511, 86717, 75524, 70938, 
-    40351, 33896, 29258, 27160, 23213, 19747, 16644, 15487, 15161, 14256, 
-    12733, 11296, 10335, 9590, 8772, 8434, 7914, 7600, 6675, 6654, 
-    5899, 5804, 5726, 5626, 5289, 4589, 3822, 3547, 3458, 2039, 
-    1956, 1937, 1927, 1606, 1511, 1466, 1462, 1383, 1270, 1247, 
-    1060, 972, 672, 616, 615, 584, 575, 520, 457, 437, 
-    383, 326, 212, 210, 202, 185, 180, 166, 162, 160, 
-    146, 107, 106, 59, 55, 44, 36, 31, 26
+    573984, 278234, 236683, 111454, 108128, 107717, 107467, 89550, 77018, 
+    71334, 41411, 34646, 31053, 27750, 23262, 20177, 16667, 16053, 15706, 
+    14613, 13187, 11346, 11255, 9833, 8979, 8734, 8045, 8042, 6803, 6722, 
+    6132, 5962, 5796, 5695, 5355, 4683, 4043, 3602, 3564, 2572, 2038, 
+    1945, 1939, 1635, 1532, 1487, 1459, 1442, 1343, 1262, 1078, 976, 673, 
+    635, 618, 593, 579, 515, 468, 453, 390, 341, 219, 209, 205, 194, 189, 
+    168, 166, 165, 149, 120, 108, 59, 58, 49, 37, 36, 32
 ]
 
 # Load Data And Sort By Popularity
