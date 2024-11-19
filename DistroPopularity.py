@@ -198,7 +198,7 @@ with tab3:
     - openSUSE
     - NixOS
 
-    The top 10 distributions though, have more than 40,000 subreddit members. The top 9 - >70,000 and the top 6 - >100,000 and the top 2 - >200,000
+    The top 10 distributions though, have more than 40,000 subreddit members. The top 9 have >70,000, the top 6 have >100,000 and the top 2 have >200,000
     """)
 
     st.subheader("Parent Distributions")
