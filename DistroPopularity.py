@@ -177,14 +177,14 @@ with tab3:
 
     st.subheader("Distribution Concentration")
     st.markdown("""
-    Approximately 15% of the total number of Linux distributions—aka the top 12 distributions—are used by around 81% of users. Infact, the top 10 distributions (12% of total no.of distributions) account for nearly 78% of users.
-    This aligns with the Pareto Principle (Power Law) very well.
+    Approximately 15% of the total number of Linux distributions—aka the top 12—are used by around 81% of users.
+    The top 10 distributions (12%) account for nearly 78% of users. This aligns very well with the Pareto Principle (Power Law).
     """)
 
     st.subheader("Major Distributions")
     st.markdown("""
-    These 81% market share distributions each have more than 30,000 subreddit members with OpenSUSE and NixOS barely making it in the list. The top 10 distributions all have more than 40,000 subreddit members.
-    The distributions in the 81% market share list are:
+    These 81% market share distributions have more than 30,000 subreddit members with OpenSUSE and NixOS barely making it in the list. 
+    The top 10 distributions all have more than 40,000 subreddit members. The distributions in the 81% market share list are:
     
     - Arch Linux
     - Ubuntu
@@ -202,7 +202,8 @@ with tab3:
 
     st.subheader("Parent Distributions")
     st.markdown("""
-    Among these, five distributions serve as the parent distributions for all others. This indicates that there are only four or five Linux distributions that most people actively use, which are:
+    Among these, five distributions serve as the parent distributions for all others. 
+    This indicates that there are only four or five Linux distributions that most people actively use, which are:
     
     - Arch Linux
     - Debian
@@ -220,11 +221,11 @@ with tab3:
 
     st.subheader("Core Usage")
     st.markdown("""
-    Looking at the popularity bar graph, The top three most popular independent distributions (which are also used by top 10 in the list) are:
+    Looking at the popularity bar graph, The top three most popular independent distributions (which are also used by the top 10 in the list) are:
     
     - Arch Linux
     - Debian
     - Fedora
 
-    These are also the top 3 distributions with most number of subreddit members of all time (coincidentally :p)
+    These are also the top 3 distributions with the most number of subreddit members of all time (coincidentally :p)
     """)
