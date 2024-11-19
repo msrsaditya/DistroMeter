@@ -231,7 +231,7 @@ with tab3:
     These are also the top 3 distributions with the most number of subreddit members of all time (coincidentally :p)
     """)
 
-st.subheader("Conclusion and Opinion")
+    st.subheader("Conclusion and Opinion")
     st.markdown("""
     Linux Fragmentation is really overblown and overhyped. The overwhelming number of distros create a paradox of choice for new users. 
     Most people that ever use Linux only either use Arch, Debian or Fedora, so why confuse the new user with all these useless choices?
