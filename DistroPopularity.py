@@ -226,5 +226,5 @@ with tab3:
     - Debian
     - Fedora
 
-    Which are also the top 3 distributions with most number of subreddit members of all time.
+    These are also the top 3 distributions with most number of subreddit members of all time (coincidentally :p)
     """)
