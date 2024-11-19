@@ -177,14 +177,14 @@ with tab3:
 
     st.subheader("Distribution Concentration")
     st.markdown("""
-    Approximately 15% of the total number of Linux distributions—aka the top 12 distributions—are used by around 81% of users. 
-    This aligns with the Pareto Principle (Power Law).
+    Approximately 15% of the total number of Linux distributions—aka the top 12 distributions—are used by around 81% of users. Infact, the top 10 distributions (12% of total no.of distributions) account for nearly 78% of users.
+    This aligns with the Pareto Principle (Power Law) very well.
     """)
 
     st.subheader("Major Distributions")
     st.markdown("""
-    These 80% market share distributions each have more than 30,000 subreddit members. 
-    The distributions in this list are:
+    These 81% market share distributions each have more than 30,000 subreddit members with OpenSUSE and NixOS barely making it in the list. The top 10 distributions all have more than 40,000 subreddit members.
+    The distributions in the 81% market share list are:
     
     - Arch Linux
     - Ubuntu
@@ -202,7 +202,7 @@ with tab3:
 
     st.subheader("Parent Distributions")
     st.markdown("""
-    Among these, five distributions serve as the parent distributions for all others:
+    Among these, five distributions serve as the parent distributions for all others. This indicates that there are only four or five Linux distributions that most people actively use, which are:
     
     - Arch Linux
     - Debian
@@ -211,19 +211,20 @@ with tab3:
     - NixOS
     """)
 
-    st.subheader("Core Usage")
-    st.markdown("""
-    In practice, there are only four or five Linux distributions that most people actively use (as derivatives do not count). 
-    The top three most popular are:
-    
-    - Arch Linux
-    - Debian
-    - Fedora
-    """)
-
     st.subheader("Top 12 Distributions by Popularity")
     fig_top_12 = plot_chart('barh', filtered_data.head(12), 
                             title="Top 12 Distributions by Popularity",
                             x_label="Number of Members",
                             y_label="Linux Distributions")
     st.pyplot(fig_top_12)
+
+    st.subheader("Core Usage")
+    st.markdown("""
+    Looking at the popularity bar graph, The top three most popular independent distributions (used by top 10 in the list and not counting derivatives) are:
+    
+    - Arch Linux
+    - Debian
+    - Fedora
+
+    Which are also the top 3 distributions with most number of subreddit members of all time.
+    """)
