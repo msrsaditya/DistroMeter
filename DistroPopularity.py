@@ -220,7 +220,7 @@ with tab3:
 
     st.subheader("Core Usage")
     st.markdown("""
-    Looking at the popularity bar graph, The top three most popular independent distributions (used by top 10 in the list and not counting derivatives) are:
+    Looking at the popularity bar graph, The top three most popular independent distributions (which are also used by top 10 in the list) are:
     
     - Arch Linux
     - Debian
