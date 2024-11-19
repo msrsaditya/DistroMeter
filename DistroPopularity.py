@@ -178,12 +178,12 @@ with tab3:
     st.subheader("Distribution Concentration")
     st.markdown("""
     Approximately 15% of the total number of Linux distributions—aka the top 12—are used by around 81% of users.
-    Whereas the top 10 distributions (12%) account for nearly 78% of users. This aligns very well with the Pareto Principle or Power Law.
+    Whereas the top 10 distributions (12%) account for nearly 77% of users. This aligns very well with the Pareto Principle or Power Law.
     """)
 
     st.subheader("Major Distributions")
     st.markdown("""
-    These top 12 distributions have more than 30,000 subreddit members with OpenSUSE and NixOS barely making it in the list. The distributions in this list are:
+    These top 12 distributions have more than 30,000 subreddit members. The distributions in this list are:
     
     - Arch Linux
     - Ubuntu
