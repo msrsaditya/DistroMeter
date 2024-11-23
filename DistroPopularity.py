@@ -34,7 +34,7 @@ st.markdown("""
     <div class="title-container">
         <div class="main-title">Linux Distributions' Popularity</div>
         <div class="subtitle">Based on Subreddit Member Count</div>
-        <div class="last-updated">Last Updated ⚡ November 23rd, 2024</div>
+        <div class="last-updated">Last Updated ⚡ November 24th, 2024</div>
     </div>
     """, unsafe_allow_html=True)
 
