@@ -74,6 +74,7 @@ distros=(
     "tails"
     "tinycorelinux"
     "Ubuntu"
+    "UbuntuMATE"
     "vanillaos"
     "venomlinux"
     "voidlinux"
