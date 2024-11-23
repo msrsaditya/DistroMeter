@@ -39,29 +39,29 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 distributions = [
-    "chromeos", "archlinux", "Ubuntu", "Fedora", "tails", "linuxmint", "Kalilinux",
-    "debian", "pop_os", "ManjaroLinux", "redhat", "openSUSE", "NixOS", "Gentoo",
-    "elementaryos", "SteamOS", "CentOS", "EndeavourOS", "Qubes", "voidlinux",
-    "Kubuntu", "SolusProject", "AsahiLinux", "Whonix", "RockyLinux", "zorinos",
+    "chromeos", "archlinux", "Ubuntu", "Fedora", "tails", "linuxmint", "Kalilinux", 
+    "debian", "pop_os", "ManjaroLinux", "redhat", "openSUSE", "NixOS", "Gentoo", 
+    "elementaryos", "SteamOS", "CentOS", "EndeavourOS", "Qubes", "voidlinux", 
+    "Kubuntu", "SolusProject", "AsahiLinux", "Whonix", "RockyLinux", "zorinos", 
     "NobaraProject", "MXLinux", "linuxfromscratch", "kdeneon", "AlmaLinux", 
-    "GarudaLinux", "Lubuntu", "xubuntu", "slackware", "ParrotOS", "AlpineLinux", 
-    "GUIX", "deepin", "cachyos", "CrunchBang", "bedrocklinux", "holoiso", 
-    "ArcoLinux", "crunchbangplusplus", "puppylinux", "antergos", "vanillaos", 
-    "BlackArchOfficial", "raspbian", "ClearLinux", "kisslinux", "PeppermintOS",
-    "antiXLinux", "Mageia", "bodhilinux", "Parabola", "FerenOS", "LinuxLite",
-    "RedStarOS", "OfficialArchLabsLinux", "tinycorelinux", "Q4OS", "geckolinux",
-    "sabayon", "OracleLinux", "rhinolinux", "BackBox", "archbang", "OpenMandriva",
-    "cruxlinux", "kinoite", "exherbo", "scientificlinux", "venomlinux", 
-    "AnarchyLinux", "rlxos_dev", "kaos", "AltLinux"
+    "GarudaLinux", "Lubuntu", "xubuntu", "slackware", "ParrotOS", "UbuntuMATE", 
+    "AlpineLinux", "GUIX", "deepin", "cachyos", "CrunchBang", "bedrocklinux", 
+    "holoiso", "ArcoLinux", "crunchbangplusplus", "puppylinux", "antergos", 
+    "vanillaos", "BlackArchOfficial", "raspbian", "ClearLinux", "kisslinux", 
+    "PeppermintOS", "antiXLinux", "Mageia", "bodhilinux", "Parabola", "FerenOS", 
+    "LinuxLite", "RedStarOS", "OfficialArchLabsLinux", "tinycorelinux", "Q4OS", 
+    "geckolinux", "sabayon", "OracleLinux", "rhinolinux", "BackBox", "archbang", 
+    "OpenMandriva", "cruxlinux", "kinoite", "exherbo", "scientificlinux", 
+    "venomlinux", "AnarchyLinux", "rlxos_dev", "kaos", "AltLinux"
 ]
 
 popularity = [
-    573968, 278732, 236913, 111895, 108321, 108193, 107773, 89907, 77167, 71353, 
-    41544, 34761, 31307, 27826, 23282, 20291, 16670, 16170, 15723, 14654, 13236, 
-    11357, 11337, 9839, 9011, 8766, 8125, 8080, 6803, 6733, 6175, 5962, 5807, 
-    5718, 5369, 4688, 4098, 3613, 3559, 2649, 2038, 1947, 1946, 1637, 1534, 1488, 
-    1457, 1453, 1352, 1260, 1077, 976, 675, 640, 619, 591, 578, 514, 468, 457, 
-    390, 343, 221, 208, 205, 196, 189, 169, 167, 165, 148, 120, 108, 59, 58, 49, 
+    573957, 278819, 236951, 111958, 108345, 108292, 107820, 89959, 77197, 71364, 
+    41568, 34769, 31341, 27833, 23284, 20297, 16670, 16180, 15727, 14653, 13248, 
+    11359, 11349, 9842, 9009, 8766, 8130, 8085, 6807, 6735, 6179, 5963, 5807, 5721, 
+    5372, 4688, 4168, 4099, 3614, 3559, 2656, 2038, 1947, 1945, 1639, 1534, 1488, 
+    1457, 1452, 1353, 1260, 1077, 976, 675, 640, 619, 591, 578, 514, 468, 457, 
+    390, 343, 222, 208, 205, 196, 189, 169, 167, 165, 148, 120, 108, 59, 58, 49, 
     37, 36, 32
 ]
 
