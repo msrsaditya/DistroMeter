@@ -46,13 +46,13 @@ distributions = [
     "NobaraProject", "MXLinux", "linuxfromscratch", "kdeneon", "AlmaLinux", 
     "GarudaLinux", "Lubuntu", "xubuntu", "slackware", "ParrotOS", "UbuntuMATE", 
     "AlpineLinux", "GUIX", "deepin", "cachyos", "CrunchBang", "bedrocklinux", 
-    "holoiso", "ArcoLinux", "crunchbangplusplus", "puppylinux", "antergos", 
-    "vanillaos", "BlackArchOfficial", "raspbian", "ClearLinux", "kisslinux", 
-    "PeppermintOS", "antiXLinux", "Mageia", "bodhilinux", "Parabola", "FerenOS", 
-    "LinuxLite", "RedStarOS", "OfficialArchLabsLinux", "tinycorelinux", "Q4OS", 
-    "geckolinux", "sabayon", "OracleLinux", "rhinolinux", "BackBox", "archbang", 
-    "OpenMandriva", "cruxlinux", "kinoite", "exherbo", "scientificlinux", 
-    "venomlinux", "AnarchyLinux", "rlxos_dev", "kaos", "AltLinux"
+    "holoiso", "ArcoLinux", "crunchbangplusplus", "puppylinux", "antergos", "vanillaos", 
+    "BlackArchOfficial", "raspbian", "ClearLinux", "kisslinux", "PeppermintOS", 
+    "antiXLinux", "Mageia", "bodhilinux", "Parabola", "FerenOS", "LinuxLite", 
+    "RedStarOS", "OfficialArchLabsLinux", "tinycorelinux", "Q4OS", "geckolinux", 
+    "sabayon", "OracleLinux", "rhinolinux", "BackBox", "archbang", "OpenMandriva", 
+    "cruxlinux", "kinoite", "exherbo", "scientificlinux", "venomlinux", "AnarchyLinux", 
+    "rlxos_dev", "kaos", "AltLinux"
 ]
 
 popularity = [
@@ -60,9 +60,8 @@ popularity = [
     41568, 34769, 31341, 27833, 23284, 20297, 16670, 16180, 15727, 14653, 13248, 
     11359, 11349, 9842, 9009, 8766, 8130, 8085, 6807, 6735, 6179, 5963, 5807, 5721, 
     5372, 4688, 4168, 4099, 3614, 3559, 2656, 2038, 1947, 1945, 1639, 1534, 1488, 
-    1457, 1452, 1353, 1260, 1077, 976, 675, 640, 619, 591, 578, 514, 468, 457, 
-    390, 343, 222, 208, 205, 196, 189, 169, 167, 165, 148, 120, 108, 59, 58, 49, 
-    37, 36, 32
+    1457, 1452, 1353, 1260, 1077, 976, 675, 640, 619, 591, 578, 514, 468, 457, 390, 
+    343, 222, 208, 205, 196, 189, 169, 167, 165, 148, 120, 108, 59, 58, 49, 37, 36, 32
 ]
 
 @st.cache_data
