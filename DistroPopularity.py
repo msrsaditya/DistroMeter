@@ -238,7 +238,7 @@ with tab3:
     st.markdown("""
     There are 22 distributions with more than 10,000 members in their subreddits. Out of these 22 distributions:
     
-    ### GNOME is used by:
+    ###### GNOME is used by:
     - CentOS
     - Debian
     - Fedora
@@ -247,38 +247,38 @@ with tab3:
     - Tails
     - Ubuntu
     
-    ### Xfce is used by:
+    ###### Xfce is used by:
     - EndeavourOS
     - Kali Linux
     - Manjaro Linux
     - Qubes OS
     - Void Linux
     
-    ### KDE Plasma is used by:
+    ###### KDE Plasma is used by:
     - Asahi Linux
     - Kubuntu
     - OpenSUSE
     - SteamOS
     
-    ### Pantheon is used by:
+    ###### Pantheon is used by:
     - Elementary OS
     
-    ### Cinnamon is used by:
+    ###### Cinnamon is used by:
     - Linux Mint
     
-    ### COSMIC is used by:
+    ###### COSMIC is used by:
     - Pop OS
     
-    ### Budgie is used by:
+    ###### Budgie is used by:
     - Solus
     
-    ### None is used by:
+    ###### None is used by:
     - Arch Linux
     - Gentoo
     
     All of these desktop environments are used by default or marketed as the "flagship" desktop environment on each distribution's main website.
     
-    ### Usage Distribution:
+    ###### Usage Distribution:
     - **GNOME**: 7/22
     - **Xfce**: 5/22
     - **KDE Plasma**: 4/22
