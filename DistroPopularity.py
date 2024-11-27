@@ -296,5 +296,5 @@ with tab3:
     Linux Fragmentation is really overblown and overhyped. The overwhelming number of distros and desktops create a paradox of choice for new users. 
     Most people that ever use Linux only either use **Arch, Debian or Fedora** with **GNOME, KDE or Xfce**, so why confuse the new user with all these useless choices?
     Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE). Don't fall for the hype. 
-    Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - unless you know what you're doing! This should be the default advice for beginners.
+    Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - This should be the default advice for beginners. This is not my opinion, this is an objective assessment of the data.
     """)
