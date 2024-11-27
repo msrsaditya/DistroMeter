@@ -34,34 +34,36 @@ st.markdown("""
     <div class="title-container">
         <div class="main-title">Linux Distributions' Popularity</div>
         <div class="subtitle">Based on Subreddit Member Count</div>
-        <div class="last-updated">Last Updated ⚡ November 24th, 2024</div>
+        <div class="last-updated">Last Updated ⚡ November 27th, 2024</div>
     </div>
     """, unsafe_allow_html=True)
 
 distributions = [
-    "chromeos", "archlinux", "Ubuntu", "Fedora", "tails", "linuxmint", "Kalilinux", 
-    "debian", "pop_os", "ManjaroLinux", "redhat", "openSUSE", "NixOS", "Gentoo", 
-    "elementaryos", "SteamOS", "CentOS", "EndeavourOS", "Qubes", "voidlinux", 
-    "Kubuntu", "SolusProject", "AsahiLinux", "Whonix", "RockyLinux", "zorinos", 
-    "NobaraProject", "MXLinux", "linuxfromscratch", "kdeneon", "AlmaLinux", 
-    "GarudaLinux", "Lubuntu", "xubuntu", "slackware", "ParrotOS", "UbuntuMATE", 
-    "AlpineLinux", "GUIX", "deepin", "cachyos", "CrunchBang", "bedrocklinux", 
-    "holoiso", "ArcoLinux", "crunchbangplusplus", "puppylinux", "antergos", "vanillaos", 
-    "BlackArchOfficial", "raspbian", "ClearLinux", "kisslinux", "PeppermintOS", 
-    "antiXLinux", "Mageia", "bodhilinux", "Parabola", "FerenOS", "LinuxLite", 
-    "RedStarOS", "OfficialArchLabsLinux", "tinycorelinux", "Q4OS", "geckolinux", 
-    "sabayon", "OracleLinux", "rhinolinux", "BackBox", "archbang", "OpenMandriva", 
-    "cruxlinux", "kinoite", "exherbo", "scientificlinux", "venomlinux", "AnarchyLinux", 
-    "rlxos_dev", "kaos", "AltLinux"
+    "chromeos", "archlinux", "Ubuntu", "Fedora", "linuxmint", "tails", 
+    "Kalilinux", "debian", "pop_os", "ManjaroLinux", "redhat", "openSUSE", 
+    "NixOS", "Gentoo", "elementaryos", "SteamOS", "CentOS", "EndeavourOS", 
+    "Qubes", "voidlinux", "Kubuntu", "AsahiLinux", "SolusProject", "Whonix", 
+    "RockyLinux", "zorinos", "NobaraProject", "MXLinux", "linuxfromscratch", 
+    "kdeneon", "AlmaLinux", "GarudaLinux", "Lubuntu", "xubuntu", "slackware", 
+    "ParrotOS", "UbuntuMATE", "AlpineLinux", "GUIX", "deepin", "cachyos", 
+    "CrunchBang", "bedrocklinux", "holoiso", "ArcoLinux", "crunchbangplusplus", 
+    "puppylinux", "antergos", "vanillaos", "BlackArchOfficial", "raspbian", 
+    "ClearLinux", "kisslinux", "PeppermintOS", "antiXLinux", "Mageia", 
+    "bodhilinux", "Parabola", "FerenOS", "LinuxLite", "RedStarOS", 
+    "OfficialArchLabsLinux", "tinycorelinux", "Q4OS", "geckolinux", 
+    "sabayon", "OracleLinux", "rhinolinux", "BackBox", "archbang", 
+    "OpenMandriva", "cruxlinux", "kinoite", "exherbo", "scientificlinux", 
+    "venomlinux", "AnarchyLinux", "rlxos_dev", "kaos", "AltLinux"
 ]
 
 popularity = [
-    573957, 278819, 236951, 111958, 108345, 108292, 107820, 89959, 77197, 71364, 
-    41568, 34769, 31341, 27833, 23284, 20297, 16670, 16180, 15727, 14653, 13248, 
-    11359, 11349, 9842, 9009, 8766, 8130, 8085, 6807, 6735, 6179, 5963, 5807, 5721, 
-    5372, 4688, 4168, 4099, 3614, 3559, 2656, 2038, 1947, 1945, 1639, 1534, 1488, 
-    1457, 1452, 1353, 1260, 1077, 976, 675, 640, 619, 591, 578, 514, 468, 457, 390, 
-    343, 222, 208, 205, 196, 189, 169, 167, 165, 148, 120, 108, 59, 58, 49, 37, 36, 32
+    573973, 279268, 237125, 112300, 108771, 108473, 108041, 90214, 77331, 
+    71394, 41660, 34847, 31603, 27919, 23345, 20317, 16666, 16426, 15744, 
+    14677, 13307, 11420, 11364, 9857, 9022, 8767, 8165, 8121, 6817, 6733, 
+    6190, 5956, 5809, 5760, 5378, 4690, 4166, 4124, 3621, 3559, 2692, 2038, 
+    1947, 1944, 1639, 1537, 1490, 1457, 1455, 1359, 1260, 1078, 979, 676, 
+    641, 619, 592, 578, 514, 468, 459, 390, 343, 223, 208, 205, 196, 192, 
+    169, 168, 165, 148, 121, 108, 59, 58, 50, 37, 36, 32
 ]
 
 @st.cache_data
