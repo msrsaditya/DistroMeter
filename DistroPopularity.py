@@ -204,35 +204,6 @@ with tab3:
     The top 10 distributions though, have more than 40,000 subreddit members. The top 9 have >70,000, the top 6 have >100,000 and the top 2 have >200,000
     """)
 
-    st.subheader("Desktop Environment Usage")
-    st.markdown("""
-    There are 22 distributions with >10k members in their subreddits. Out of these 22 distributions,
-    
-    CentOS, Debian, Fedora, NixOS, RHEL, Tails and Ubuntu use GNOME
-    
-    EndeavourOS, Kali Linux, Manjaro Linux, Qubes OS and Void Linux use Xfce
-    
-    Asahi Linux, Kubuntu, OpenSUSE and SteamOS use KDE Plasma
-    
-    Elementary OS uses Pantheon
-    Linux Mint uses Cinnamon
-    Pop OS uses COSMIC
-    Solus uses Budgie
-    
-    Arch Linux and Gentoo use None
-
-    GNOME - 7/22
-    Xfce - 5/22
-    KDE Plasma - 4/22
-    None - 2/22
-    Cinnamon - 1/22
-    Cosmic - 1/22
-    Pantheon - 1/22
-    Budgie - 1/22
-
-    This clearly shows the tripoly of GNOME, KDE and Xfce and the duopoly of GTK and QT GUI Toolkits. Clearly, most people are using GNOME with GTK.
-    """)
-
     st.subheader("Parent Distributions")
     st.markdown("""
     Among these, five distributions serve as the parent distributions for all others. 
@@ -261,6 +232,40 @@ with tab3:
     - Fedora
 
     These are also the top 3 distributions with the most number of subreddit members of all time (coincidentally :p)
+    """)
+
+    st.subheader("Desktop Environment Usage")
+    st.markdown("""
+    There are 22 distributions with >10k members in their subreddits. Out of these 22 distributions,
+    
+    CentOS, Debian, Fedora, NixOS, RHEL, Tails and Ubuntu use GNOME
+    
+    EndeavourOS, Kali Linux, Manjaro Linux, Qubes OS and Void Linux use Xfce
+    
+    Asahi Linux, Kubuntu, OpenSUSE and SteamOS use KDE Plasma
+    
+    Elementary OS uses Pantheon
+    Linux Mint uses Cinnamon
+    Pop OS uses COSMIC
+    Solus uses Budgie
+    
+    Arch Linux and Gentoo use None
+
+    All of this usage is by "default" or marketed as "flagship distro" in that distribution's main website.
+
+    GNOME - 7/22
+    Xfce - 5/22
+    KDE Plasma - 4/22
+    None - 2/22
+    Cinnamon - 1/22
+    Cosmic - 1/22
+    Pantheon - 1/22
+    Budgie - 1/22
+
+    This clearly shows the tripoly of GNOME, KDE and Xfce and the duopoly of GTK and QT GUI Toolkits. 
+    Clearly, most people are using GNOME with GTK. 
+    And no one is using desktop environments like Cutefish, Deepin, Enlightenment, LXDE, LXQt, Lumina, MATE, Unity etc. 
+    by default as their flagship desktop.
     """)
 
     st.subheader("Conclusion and Opinion")
