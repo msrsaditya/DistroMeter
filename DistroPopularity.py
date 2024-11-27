@@ -238,20 +238,20 @@ with tab3:
     st.markdown("""
     There are 22 distributions with >10k members in their subreddits. Out of these 22 distributions,
     
-    CentOS, Debian, Fedora, NixOS, RHEL, Tails and Ubuntu use GNOME
+    - CentOS, Debian, Fedora, NixOS, RHEL, Tails and Ubuntu use GNOME
     
-    EndeavourOS, Kali Linux, Manjaro Linux, Qubes OS and Void Linux use Xfce
+    - EndeavourOS, Kali Linux, Manjaro Linux, Qubes OS and Void Linux use Xfce
     
-    Asahi Linux, Kubuntu, OpenSUSE and SteamOS use KDE Plasma
+    - Asahi Linux, Kubuntu, OpenSUSE and SteamOS use KDE Plasma
     
-    Elementary OS uses Pantheon
-    Linux Mint uses Cinnamon
-    Pop OS uses COSMIC
-    Solus uses Budgie
+    - Elementary OS uses Pantheon
+    - Linux Mint uses Cinnamon
+    - Pop OS uses COSMIC
+    - Solus uses Budgie
     
-    Arch Linux and Gentoo use None
+    - Arch Linux and Gentoo use None
 
-    All of this usage is by "default" or marketed as "flagship distro" in that distribution's main website.
+    - All of this usage is by "default" or marketed as "flagship distro" in that distribution's main website.
 
     GNOME - 7/22
     Xfce - 5/22
@@ -262,10 +262,10 @@ with tab3:
     Pantheon - 1/22
     Budgie - 1/22
 
-    This clearly shows the tripoly of GNOME, KDE and Xfce and the duopoly of GTK and QT GUI Toolkits. 
-    Clearly, most people are using GNOME with GTK. 
-    And no one is using desktop environments like Cutefish, Deepin, Enlightenment, LXDE, LXQt, Lumina, MATE, Unity etc. 
-    by default as their flagship desktop.
+    - This clearly shows the tripoly of GNOME, KDE and Xfce and the duopoly of GTK and QT GUI Toolkits. 
+    - Clearly, most people are using GNOME with GTK. 
+    - And no one is using desktop environments like Cutefish, Deepin, Enlightenment, LXDE, LXQt, Lumina, MATE, Unity etc. 
+    - by default as their flagship desktop.
     """)
 
     st.subheader("Conclusion and Opinion")
