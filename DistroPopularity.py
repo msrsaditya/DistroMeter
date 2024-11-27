@@ -288,7 +288,7 @@ with tab3:
     - **Pantheon**: 1/22
     - **Budgie**: 1/22
     
-    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This clearly shows that most users are using **GNOME** with **GTK**, with no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, and **Unity** as default or flagship desktops.
+    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This clearly shows that most users are using **GNOME** with **GTK**, and no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, and **Unity** as default or flagship desktops.
     """)
 
     st.subheader("Conclusion and Opinion")
