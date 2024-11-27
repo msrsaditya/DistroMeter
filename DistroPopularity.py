@@ -191,8 +191,8 @@ with tab3:
     - Arch Linux
     - Ubuntu
     - Fedora
-    - Tails
     - Linux Mint
+    - Tails
     - Kali Linux
     - Debian
     - Pop!_OS
