@@ -288,13 +288,13 @@ with tab3:
     - **Pantheon**: 1/22
     - **Budgie**: 1/22
     
-    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This clearly shows that most users are using **GNOME** with **GTK**, and no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity** etc. as default or flagship desktops.
+    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This clearly shows that most users are using **GNOME** with **GTK**, and no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity** etc. as their default or flagship desktops.
     """)
 
     st.subheader("Conclusion and Opinion")
     st.markdown("""
     Linux Fragmentation is really overblown and overhyped. The overwhelming number of distros and desktops create a paradox of choice for new users. 
-    Most people that ever use Linux only either use Arch, Debian or Fedora with GNOME, KDE or Xfce, so why confuse the new user with all these useless choices?
+    Most people that ever use Linux only either use **Arch, Debian or Fedora** with **GNOME, KDE or Xfce**, so why confuse the new user with all these useless choices?
     Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE). Don't fall for the hype. 
     Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - unless you know what you're doing! This should be the default advice for beginners.
     """)
