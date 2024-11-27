@@ -276,7 +276,7 @@ with tab3:
     - Arch Linux
     - Gentoo
     
-    All of these desktop environments are used by default or marketed as the "flagship" desktop environment on each distribution's main website.
+    All of these desktop environments are used by default or are marketed as the "flagship" desktop environment on all of these distributions' main website.
     
     ###### Usage Distribution:
     - **GNOME**: 7/22
@@ -288,13 +288,13 @@ with tab3:
     - **Pantheon**: 1/22
     - **Budgie**: 1/22
     
-    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. Most users are using **GNOME** with **GTK**, while less common desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, and **Unity** are not widely adopted as default or flagship desktops.
+    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This clearly shows that Mmost users are using **GNOME** with **GTK**, with no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, and **Unity** as default or flagship desktops.
     """)
 
     st.subheader("Conclusion and Opinion")
     st.markdown("""
-    Linux Fragmentation is really overblown and overhyped. The overwhelming number of distros create a paradox of choice for new users. 
-    Most people that ever use Linux only either use Arch, Debian or Fedora, so why confuse the new user with all these useless choices?
-    Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint). Don't fall for the hype. 
-    Use FAD (Fedora, Arch, Debian) - unless you know what you're doing!
+    Linux Fragmentation is really overblown and overhyped. The overwhelming number of distros and desktops create a paradox of choice for new users. 
+    Most people that ever use Linux only either use Arch, Debian or Fedora with GNOME, KDE or Xfce, so why confuse the new user with all these useless choices?
+    Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE). Don't fall for the hype. 
+    Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - unless you know what you're doing! This should be the default advice for beginners.
     """)
