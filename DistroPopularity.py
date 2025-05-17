@@ -179,58 +179,34 @@ with tab3:
 
     st.subheader("Distribution Concentration")
     st.markdown("""
-    Approximately 15% of the total number of Linux distributions—aka the top 12—are used by around 81% of users.
-    Whereas the top 10 distributions (12%) account for nearly 77% of users. This aligns very well with the Pareto Principle or Power Law.
+    The top 10 distributions (12% of all listed distributions) account for nearly 82% of users. This aligns very well with the Pareto Principle or Power Law.
     """)
 
     st.subheader("Major Distributions")
     st.markdown("""
-    These top 12 distributions have more than 30,000 subreddit members. The distributions in this list are:
-    
+    These top 10 distributions have 46,000+ subreddit members. The distributions in this list are:
     - Arch Linux
     - Ubuntu
-    - Fedora
     - Linux Mint
-    - Tails
+    - Fedora
     - Kali Linux
+    - Tails
     - Debian
     - Pop!_OS
     - Manjaro Linux
     - Red Hat
-    - openSUSE
-    - NixOS
-
-    The top 10 distributions though, have more than 40,000 subreddit members. The top 9 have >70,000, the top 6 have >100,000 and the top 2 have >200,000
+    
+    The top 9 distributions though, have 73,000+ subreddit members. The top 8 have 83,000+, the top 7 have 100,000+ and the top 2 have 250,000+ and with the topmost distribution having 300,000+ subreddit members.
     """)
 
     st.subheader("Parent Distributions")
     st.markdown("""
-    Among these, five distributions serve as the parent distributions for all others. 
-    This indicates that there are only four or five Linux distributions that most people actively use, which are:
+    Among these, three distributions serve as the parent distributions for all others. 
+    This indicates that there are only three Linux distributions that most people actively use, which are:
     
     - Arch Linux
     - Debian
     - Fedora
-    - openSUSE
-    - NixOS
-    """)
-
-    st.subheader("Top 12 Distributions by Popularity")
-    fig_top_12 = plot_chart('barh', filtered_data.head(12), 
-                            title="Top 12 Distributions by Popularity",
-                            x_label="Number of Members",
-                            y_label="Linux Distributions")
-    st.pyplot(fig_top_12)
-
-    st.subheader("Core Usage")
-    st.markdown("""
-    Looking at the popularity bar graph, The top three most popular independent distributions (which are also used by the top 10 in the list) are:
-    
-    - Arch Linux
-    - Debian
-    - Fedora
-
-    These are also the top 3 distributions with the most number of subreddit members of all time (coincidentally :p)
     """)
 
     st.subheader("Desktop Environment Usage")
@@ -287,13 +263,13 @@ with tab3:
     - **Pantheon**: 1/22
     - **Budgie**: 1/22
     
-    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This clearly shows that most users are using **GNOME** with **GTK**, and no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity** etc. as their default or flagship desktops.
+    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This also show that most users are using **GNOME** with **GTK**, and no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity** etc. as their default or flagship desktops.
     """)
 
     st.subheader("Conclusion and Opinion")
     st.markdown("""
-    Linux Fragmentation is really overblown and overhyped. The overwhelming number of distros and desktops create a paradox of choice for new users. 
-    Most people that ever use Linux only either use **Arch, Debian or Fedora** with **GNOME, KDE or Xfce**, so why confuse the new user with all these useless choices?
-    Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE). Don't fall for the hype. 
-    Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - This should be the default mantra for beginners. This is not my opinion, this is an objective assessment of the data.
+    Linux Fragmentation is really overblown for no reason. The overwhelming number of distros and desktops create a paradox of choice for new users. 
+    Most people that ever use Linux (seriously) only either use **Arch, Debian or Fedora** with **GNOME, KDE or Xfce**.
+    Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE).
+    Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - This should be the default mantra for beginners as it simplifies their Linux journey to a great extent.
     """)
