@@ -211,7 +211,7 @@ with tab3:
 
     st.subheader("Desktop Environment Usage")
     st.markdown("""
-    There are 22 distributions with more than 10,000 members in their subreddits. Out of these 22 distributions:
+    There are 25 distributions with more than 10,000 members in their subreddits. Out of these 22 distributions:
     
     ###### GNOME is used by:
     - CentOS
@@ -221,6 +221,7 @@ with tab3:
     - RHEL
     - Tails
     - Ubuntu
+    - Zorin
     
     ###### Xfce is used by:
     - EndeavourOS
@@ -228,10 +229,12 @@ with tab3:
     - Manjaro Linux
     - Qubes OS
     - Void Linux
+    - Whonix
     
     ###### KDE Plasma is used by:
     - Asahi Linux
     - Kubuntu
+    - NobaraProject
     - OpenSUSE
     - SteamOS
     
@@ -254,14 +257,14 @@ with tab3:
     Note that "used" here means used by default or are marketed as the "flagship" desktop environment on these distributions' main website.
     
     ###### Usage Distribution:
-    - **GNOME**: 7/22
-    - **Xfce**: 5/22
-    - **KDE Plasma**: 4/22
-    - **None**: 2/22
-    - **Cinnamon**: 1/22
-    - **COSMIC**: 1/22
-    - **Pantheon**: 1/22
-    - **Budgie**: 1/22
+    - **GNOME**: 8/25
+    - **Xfce**: 6/25
+    - **KDE Plasma**: 5/25
+    - **None**: 2/25
+    - **Cinnamon**: 1/25
+    - **COSMIC**: 1/25
+    - **Pantheon**: 1/25
+    - **Budgie**: 1/25
     
    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, as well as the duopoly of GTK and Qt GUI toolkits. This also shows that most distros are using **GNOME** with **GTK**, and almost no distro is using desktop environments like **Cufefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity**, etc. as their default or flagship desktops.
     """)
