@@ -184,7 +184,7 @@ with tab3:
 
     st.subheader("Major Distributions")
     st.markdown("""
-    These top 10 distributions have 46,000+ subreddit members. The distributions in this list are:
+    All of these (top 10) distributions have 46,000+ subreddit members. The distributions in this list are:
     - Arch Linux
     - Ubuntu
     - Linux Mint
@@ -196,13 +196,13 @@ with tab3:
     - Manjaro Linux
     - Red Hat
     
-    The top 9 distributions though, have 73,000+ subreddit members. The top 8 have 83,000+, the top 7 have 100,000+ and the top 2 have 250,000+ and with the topmost distribution having 300,000+ subreddit members.
+    The top 9 distributions, though, have 73,000+ subreddit members. The top 8 have 83,000+, the top 7 have 100,000+, and the top 2 have 250,000+. The topmost distribution (archlinux) has 300,000+ subreddit members.
     """)
 
     st.subheader("Parent Distributions")
     st.markdown("""
-    Among these, three distributions serve as the parent distributions for all others. 
-    This indicates that there are only three Linux distributions that most people actively use, which are:
+    Among these, three distributions serve as the parent distribution for all others. 
+    This indicates that there are only three Linux distributions that most people basically use, these are:
     
     - Arch Linux
     - Debian
@@ -250,8 +250,8 @@ with tab3:
     ###### None is used by:
     - Arch Linux
     - Gentoo
-    
-    All of these desktop environments are used by default or are marketed as the "flagship" desktop environment on all of these distributions' main website.
+
+    Note that "used" here means used by default or are marketed as the "flagship" desktop environment on these distributions' main website.
     
     ###### Usage Distribution:
     - **GNOME**: 7/22
@@ -263,12 +263,12 @@ with tab3:
     - **Pantheon**: 1/22
     - **Budgie**: 1/22
     
-    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, and the duopoly of GTK and Qt GUI toolkits. This also show that most users are using **GNOME** with **GTK**, and no one using desktop environments like **Cutefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity** etc. as their default or flagship desktops.
+   This clearly shows the "tripoly" of GNOME, KDE, and Xfce, as well as the duopoly of GTK and Qt GUI toolkits. This also shows that most distros are using **GNOME** with **GTK**, and almost no distro is using desktop environments like **Cufefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity**, etc. as their default or flagship desktops.
     """)
 
     st.subheader("Conclusion and Opinion")
     st.markdown("""
-    Linux Fragmentation is really overblown for no reason. The overwhelming number of distros and desktops create a paradox of choice for new users. 
+    Linux Fragmentation is really overblown for no (good) reason. The overwhelming number of distros and desktops creates a paradox of choice for new users. 
     Most people that ever use Linux (seriously) only either use **Arch, Debian or Fedora** with **GNOME, KDE or Xfce**.
     Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE).
     Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - This should be the default mantra for beginners as it simplifies their Linux journey to a great extent.
