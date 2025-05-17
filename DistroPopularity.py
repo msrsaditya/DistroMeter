@@ -211,7 +211,7 @@ with tab3:
 
     st.subheader("Desktop Environment Usage")
     st.markdown("""
-    There are 25 distributions with more than 10,000 members in their subreddits. Out of these 22 distributions:
+    There are 25 distributions with more than 10,000 members in their subreddits. Out of these 25 distributions:
     
     ###### GNOME is used by:
     - CentOS
