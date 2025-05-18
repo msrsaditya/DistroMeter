@@ -192,7 +192,7 @@ with tab3:
     - SUSE Linux
     - Gentoo
 
-    If we consider only the top 10 list, all of them use either Arch Linux, Debian or RHEL as their parent distribution. This means 70% of users use these 3 as their parent distributions.
+    If we consider only the top 10 list, all of them use either Arch Linux, Debian or Fedora as their parent distribution. This means 70% of users use these 3 as their parent distributions.
     """)
 
     st.subheader("Desktop Environment Usage")
