@@ -61,7 +61,7 @@ selected_distributions = st.sidebar.multiselect(
 excluded_distributions = st.sidebar.multiselect(
     "Exclude Distributions",
     distributions,
-    default=["chromeos"]
+    default=["batocera", "chromeos","OpenMediaVault", "Proxmox", "truenas"]
 )
 
 min_members = st.sidebar.number_input(
@@ -156,15 +156,14 @@ with tab3:
 
     st.subheader("Distribution Concentration")
     st.markdown("""
-    The top 15 distributions (11% of all listed distributions) account for nearly 80% of users. This aligns very well with the Pareto Principle or Power Law.
+    The top 13 distributions (10% of all listed distributions) account for nearly 80% of users. This aligns very well with the Pareto Principle.
     """)
 
     st.subheader("Major Distributions")
     st.markdown("""
-    All of these (top 15) distributions have 30,000+ subreddit members. The distributions in this list are:
+    All of these (top 13) distributions have 30,000+ subreddit members. The distributions in this list are:
     - Arch Linux
     - Ubuntu
-    - Proxmox
     - Linux Mint
     - Fedora
     - Kali Linux
@@ -172,13 +171,14 @@ with tab3:
     - Debian
     - Pop!_OS
     - Manjaro Linux
-    - True NAS
     - Red Hat
     - NixOS
     - OpenSUSE
     - Gentoo
     
-    The top 10 distributions, though, have 73,000+ subreddit members. The top 9 have 83,000+, the top 8 have 100,000+, and the top 2 have 250,000+. The topmost distribution (archlinux) has 300,000+ subreddit members.
+    The top 10 distributions, though, have 46,000+ subreddit members. The top 9 have 73,000+, the top 8 have 83,000+, and the top 2 have 250,000+. The topmost distribution (archlinux) has 300,000+ subreddit members.
+
+    There are some distributions excluded by default. These are "technically" called Linux distributions but are not for general purpose use and people don't refer to them when they're talking about Linux on the "desktop". For example, Proxmox is a server, True NAS and Open Media Vault are NAS's and Batocera is a retro gaming emulator. You can choose to include these if you want but my point still stands.
     """)
 
     st.subheader("Parent Distributions")
@@ -197,7 +197,7 @@ with tab3:
 
     st.subheader("Desktop Environment Usage")
     st.markdown("""
-    There are 30 distributions with more than 10,000 members in their subreddits. Out of these 30 distributions:
+    There are 26 distributions with more than 10,000 members (which I think is the minimum to call a subreddit serious) in their subreddits. Out of these 26 distributions:
     
     ###### GNOME is used by:
     - CentOS
@@ -239,23 +239,19 @@ with tab3:
     
     ###### None is used by:
     - Arch Linux
-    - Batocera
     - Gentoo
-    - Open Media Vault
-    - Proxmox
-    - True NAS
 
     Note that "used" here means used by default or are marketed as the "flagship" desktop environment on these distributions' main website.
     
     ###### Usage Distribution:
-    - **GNOME**: 8/30
-    - **KDE Plasma**: 6/30
-    - **Xfce**: 6/30
-    - **None**: 6/30
-    - **Cinnamon**: 1/30
-    - **COSMIC**: 1/30
-    - **Pantheon**: 1/30
-    - **Budgie**: 1/30
+    - **GNOME**: 8/26
+    - **KDE Plasma**: 6/26
+    - **Xfce**: 6/26
+    - **None**: 2/26
+    - **Cinnamon**: 1/26
+    - **COSMIC**: 1/26
+    - **Pantheon**: 1/26
+    - **Budgie**: 1/26
     
    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, as well as the duopoly of GTK and Qt GUI toolkits. This also shows that most distros are using **GNOME** with **GTK**, and almost no distro is using desktop environments like **Cufefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity**, etc. as their default or flagship desktops.
     """)
