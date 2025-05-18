@@ -38,9 +38,9 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-distributions = ["chromeos", "archlinux", "Ubuntu", "linuxmint", "Fedora", "Kalilinux", "tails", "debian", "pop_os", "ManjaroLinux", "redhat", "NixOS", "openSUSE", "Gentoo", "SteamOS", "elementaryos", "EndeavourOS", "Qubes", "CentOS", "voidlinux", "Kubuntu", "AsahiLinux", "SolusProject", "NobaraProject", "zorinos", "Whonix", "RockyLinux", "MXLinux", "linuxfromscratch", "cachyos", "kdeneon", "AlmaLinux", "GarudaLinux", "Lubuntu", "xubuntu", "slackware", "AlpineLinux", "ParrotOS", "UbuntuMATE", "GUIX", "deepin", "CrunchBang", "bedrocklinux", "holoiso", "BlackArchOfficial", "ArcoLinux", "puppylinux", "crunchbangplusplus", "vanillaos", "antergos", "raspbian", "ClearLinux", "kisslinux", "antiXLinux", "PeppermintOS", "bodhilinux", "Mageia", "Parabola", "RedStarOS", "FerenOS", "LinuxLite", "OfficialArchLabsLinux", "tinycorelinux", "rhinolinux", "Q4OS", "OpenMandriva", "OracleLinux", "geckolinux", "sabayon", "BackBox", "archbang", "cruxlinux", "kinoite", "exherbo", "venomlinux", "AnarchyLinux", "scientificlinux", "AltLinux", "kaos", "rlxos_dev"]
+distributions = ["chromeos", "archlinux", "Ubuntu", "linuxmint", "Fedora", "Kalilinux", "tails", "debian", "pop_os", "ManjaroLinux", "redhat", "NixOS", "openSUSE", "Gentoo", "SteamOS", "elementaryos", "EndeavourOS", "Qubes", "CentOS", "voidlinux", "Kubuntu", "AsahiLinux", "SolusProject", "NobaraProject", "zorinos", "Whonix", "RockyLinux", "MXLinux", "cachyos", "linuxfromscratch", "kdeneon", "AlmaLinux", "GarudaLinux", "Lubuntu", "xubuntu", "slackware", "AlpineLinux", "ParrotOS", "UbuntuMATE", "GUIX", "deepin", "CrunchBang", "bedrocklinux", "holoiso", "BlackArchOfficial", "ArcoLinux", "puppylinux", "crunchbangplusplus", "vanillaos", "antergos", "raspbian", "ClearLinux", "kisslinux", "antiXLinux", "PeppermintOS", "bodhilinux", "Mageia", "Parabola", "RedStarOS", "FerenOS", "LinuxLite", "OfficialArchLabsLinux", "tinycorelinux", "rhinolinux", "Q4OS", "OpenMandriva", "OracleLinux", "geckolinux", "sabayon", "BackBox", "archbang", "cruxlinux", "kinoite", "exherbo", "venomlinux", "AnarchyLinux", "scientificlinux", "AltLinux", "kaos", "rlxos_dev"]
 
-popularity = [574118, 302749, 249977, 132758, 129021, 119277, 115430, 104584, 83193, 73368, 46069, 39226, 38771, 30951, 29456, 23821, 22016, 16690, 16671, 16530, 14877, 13987, 11432, 11396, 10298, 10251, 9548, 8685, 7574, 7569, 6873, 6706, 6563, 6162, 6036, 5617, 5068, 4938, 4232, 3888, 3653, 2030, 1989, 1948, 1704, 1671, 1611, 1578, 1542, 1436, 1308, 1122, 979, 749, 719, 643, 634, 582, 516, 511, 507, 394, 394, 291, 285, 279, 229, 208, 205, 172, 171, 157, 142, 115, 62, 59, 59, 53, 40, 39]
+popularity = [574124, 302815, 249999, 132871, 129095, 119301, 115452, 104621, 83221, 73369, 46076, 39250, 38773, 30958, 29474, 23820, 22032, 16694, 16671, 16532, 14886, 13993, 11435, 11413, 10307, 10253, 9548, 8690, 7588, 7577, 6874, 6708, 6568, 6165, 6039, 5620, 5070, 4938, 4234, 3888, 3653, 2030, 1989, 1948, 1706, 1671, 1612, 1578, 1542, 1436, 1308, 1121, 979, 749, 719, 643, 634, 582, 516, 511, 507, 394, 394, 291, 285, 279, 229, 208, 205, 172, 171, 157, 142, 115, 62, 59, 59, 53, 40, 39]
 
 @st.cache_data
 def load_data():
@@ -253,6 +253,5 @@ with tab3:
     Most people that ever use Linux (seriously) only either use **Arch, Debian or Fedora** with **GNOME, KDE or Xfce**.
 
     Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE).
-
     Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) - This should be the default mantra for beginners as it simplifies their Linux journey to a great extent.
     """)
