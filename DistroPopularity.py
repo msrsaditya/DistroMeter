@@ -156,14 +156,15 @@ with tab3:
 
     st.subheader("Distribution Concentration")
     st.markdown("""
-    The top 10 distributions (12% of all listed distributions) account for nearly 82% of users. This aligns very well with the Pareto Principle or Power Law.
+    The top 15 distributions (11% of all listed distributions) account for nearly 80% of users. This aligns very well with the Pareto Principle or Power Law.
     """)
 
     st.subheader("Major Distributions")
     st.markdown("""
-    All of these (top 10) distributions have 46,000+ subreddit members. The distributions in this list are:
+    All of these (top 15) distributions have 30,000+ subreddit members. The distributions in this list are:
     - Arch Linux
     - Ubuntu
+    - Proxmox
     - Linux Mint
     - Fedora
     - Kali Linux
@@ -171,24 +172,32 @@ with tab3:
     - Debian
     - Pop!_OS
     - Manjaro Linux
+    - True NAS
     - Red Hat
+    - NixOS
+    - OpenSUSE
+    - Gentoo
     
-    The top 9 distributions, though, have 73,000+ subreddit members. The top 8 have 83,000+, the top 7 have 100,000+, and the top 2 have 250,000+. The topmost distribution (archlinux) has 300,000+ subreddit members.
+    The top 10 distributions, though, have 73,000+ subreddit members. The top 9 have 83,000+, the top 8 have 100,000+, and the top 2 have 250,000+. The topmost distribution (archlinux) has 300,000+ subreddit members.
     """)
 
     st.subheader("Parent Distributions")
     st.markdown("""
-    Among these, three distributions serve as the parent distribution for all others. 
-    This indicates that there are only three Linux distributions that most people basically use, these are:
+    Among these, 5 distributions serve as the parent distribution for all others, these are:
     
     - Arch Linux
     - Debian
     - Fedora
+    - NixOS
+    - SUSE Linux
+    - Gentoo
+
+    If we consider only the top 10 list, all of them use either Arch Linux, Debian or RHEL as their parent distribution. This means 70% of users use these 3 as their parent distributions.
     """)
 
     st.subheader("Desktop Environment Usage")
     st.markdown("""
-    There are 25 distributions with more than 10,000 members in their subreddits. Out of these 25 distributions:
+    There are 30 distributions with more than 10,000 members in their subreddits. Out of these 30 distributions:
     
     ###### GNOME is used by:
     - CentOS
@@ -199,6 +208,14 @@ with tab3:
     - Tails
     - Ubuntu
     - Zorin
+
+    ###### KDE Plasma is used by:
+    - Asahi Linux
+    - Bazzite
+    - Kubuntu
+    - NobaraProject
+    - OpenSUSE
+    - SteamOS
     
     ###### Xfce is used by:
     - EndeavourOS
@@ -207,13 +224,6 @@ with tab3:
     - Qubes OS
     - Void Linux
     - Whonix
-    
-    ###### KDE Plasma is used by:
-    - Asahi Linux
-    - Kubuntu
-    - NobaraProject
-    - OpenSUSE
-    - SteamOS
     
     ###### Pantheon is used by:
     - Elementary OS
@@ -229,19 +239,23 @@ with tab3:
     
     ###### None is used by:
     - Arch Linux
+    - Batocera
     - Gentoo
+    - Open Media Vault
+    - Proxmox
+    - True NAS
 
     Note that "used" here means used by default or are marketed as the "flagship" desktop environment on these distributions' main website.
     
     ###### Usage Distribution:
-    - **GNOME**: 8/25
-    - **Xfce**: 6/25
-    - **KDE Plasma**: 5/25
-    - **None**: 2/25
-    - **Cinnamon**: 1/25
-    - **COSMIC**: 1/25
-    - **Pantheon**: 1/25
-    - **Budgie**: 1/25
+    - **GNOME**: 8/30
+    - **KDE Plasma**: 6/30
+    - **Xfce**: 6/30
+    - **None**: 6/30
+    - **Cinnamon**: 1/30
+    - **COSMIC**: 1/30
+    - **Pantheon**: 1/30
+    - **Budgie**: 1/30
     
    This clearly shows the "tripoly" of GNOME, KDE, and Xfce, as well as the duopoly of GTK and Qt GUI toolkits. This also shows that most distros are using **GNOME** with **GTK**, and almost no distro is using desktop environments like **Cufefish**, **Deepin**, **Enlightenment**, **LXDE**, **LXQt**, **Lumina**, **MATE**, **Unity**, etc. as their default or flagship desktops.
     """)
