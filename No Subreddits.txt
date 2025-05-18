@@ -124,3 +124,6 @@ MiniOS
 Loc-OS
 Commodore OS Vision
 MAX: Madrid_Linux
+
+243 (Total in Distrowatch) - 126 (No Subreddits) = 117
+117 + 17 (Not in Distrowatch) = 134 (Total No.Of Distributions)
