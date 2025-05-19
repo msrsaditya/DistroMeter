@@ -185,7 +185,7 @@ for entry in "${sorted[@]}"; do
     sorted_distros+=("$distro")
 done
 
-printf "distributions=["
+printf "distributions = ["
 for i in "${!sorted_distros[@]}"; do
     printf "\"%s\"" "${sorted_distros[i]}"
     if [ $i -lt $(( ${#sorted_distros[@]} - 1 )) ]; then
@@ -194,7 +194,7 @@ for i in "${!sorted_distros[@]}"; do
 done
 printf "]\n"
 
-printf "popularity=["
+printf "popularity = ["
 for i in "${!sorted_counts[@]}"; do
     printf "%s" "${sorted_counts[i]}"
     if [ $i -lt $(( ${#sorted_counts[@]} - 1 )) ]; then
