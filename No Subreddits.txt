@@ -1,5 +1,6 @@
 EasyOS
 Bluestar Linux
+ClearLinux
 Voyager Live
 Linuxfx
 PCLinuxOS

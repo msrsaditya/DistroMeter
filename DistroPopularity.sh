@@ -28,7 +28,6 @@ distros=(
     "CentOS"
     "chimeralinux"
     "chromeos"
-    "ClearLinux"
     "CrunchBang"
     "crunchbangplusplus"
     "cruxlinux"
