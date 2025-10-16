@@ -117,11 +117,11 @@ with tab3:
     st.header("Key Insights")
     st.subheader("Distribution Concentration")
     st.markdown("""
-    The top 13 distributions (10% of all listed distributions) account for nearly 80% of users. This aligns very well with the Pareto Principle.
+    The top 10 distributions (7.5% of all listed distributions) account for nearly 80% of users. This aligns very well with the Pareto Principle (more so than the actual principle TBF)
     """)
     st.subheader("Major Distributions")
     st.markdown("""
-    All of these (top 13) distributions have 30,000+ subreddit members. The distributions in this list are:
+    All of these (top 10) distributions have 50,000+ subreddit members. The distributions in this list are:
     - Arch Linux
     - Ubuntu
     - Linux Mint
@@ -132,37 +132,31 @@ with tab3:
     - Pop!_OS
     - Manjaro Linux
     - Red Hat
-    - NixOS
-    - OpenSUSE
-    - Gentoo
     
-    The top 10 distributions, though, have 46,000+ subreddit members. The top 9 have 73,000+, the top 8 have 83,000+, and the top 2 have 250,000+. The topmost distribution (archlinux) has 300,000+ subreddit members.
+    The top 9 distributions, though, have 75,000+, the top 8 have 88,000+, and the top 2 have 260,000+. The topmost distribution (archlinux) has 330,000+ subreddit members.
 
     There are some distributions excluded by default (in ALL type). These are "technically" called Linux distributions but are not for general purpose use and people don't refer to them when they're talking about Linux on the "desktop". For example, Proxmox is a server, True NAS and Open Media Vault are NAS's and Batocera is a retro gaming emulator. You can choose to include these if you want but my point still stands.
     """)
     st.subheader("Parent Distributions")
     st.markdown("""
-    Among these, 5 distributions serve as the parent distribution for all others, these are:
+    Among these, 3 distributions serve as the parent distribution for all others, these are:
     
     - Arch Linux
     - Debian
     - Fedora
-    - NixOS
-    - SUSE Linux
-    - Gentoo
 
-    If we consider only the top 10 list, all of them use either Arch Linux, Debian or Fedora as their parent distribution. This means 74% of users use these 3 as their parent distributions.
+    This means >80% of users use these 3 as their parent distributions.
     """)
     st.subheader("Desktop Environment Usage")
     st.markdown("""
-    There are 26 distributions with more than 10,000 members (which I think is the minimum to call a subreddit serious) in their subreddits. Out of these 26 distributions:
+    There are 28 distributions with more than 10,000 members (which I think is the minimum to call a subreddit serious) in their subreddits. Out of these 28 distributions:
     
     ###### GNOME is used by:
     - CentOS
     - Debian
     - Fedora
-    - NixOS
     - RHEL
+    - Rocky Linux
     - Tails
     - Ubuntu
     - Zorin
@@ -170,9 +164,9 @@ with tab3:
     ###### KDE Plasma is used by:
     - Asahi Linux
     - Bazzite
+    - CachyOS
     - Kubuntu
     - NobaraProject
-    - OpenSUSE
     - SteamOS
     
     ###### Xfce is used by:
@@ -197,20 +191,20 @@ with tab3:
     
     ###### None is used by:
     - Arch Linux
-    - Gentoo
+
+    Note that here, used means either used by default or offered as flagship desktop.
 
     ###### Usage Distribution:
     - **GNOME**: 8/26
     - **KDE Plasma**: 6/26
     - **Xfce**: 6/26
-    - **None**: 2/26
     - **Cinnamon**: 1/26
     - **COSMIC**: 1/26
     - **Pantheon**: 1/26
     - **Budgie**: 1/26
+    - **None**: 1/26
 
-
-    This clearly shows the "tripoly" of GNOME, KDE and Xfce with duopoly of GTK and QT toolkits.
+    This clearly shows the "tripoly" of GNOME, KDE and Xfce with duopoly of GTK and QT toolkits. 
     """)
     st.subheader("Conclusion and Opinion")
     st.markdown("""
@@ -221,4 +215,17 @@ with tab3:
     Derivative distros these days are just changing themes and calling it a new operating system (with exceptions like Linux Mint with Cinnamon DE).
     
     Use FAD (Fedora, Arch, Debian) with KNOX (Kde, gNOme, Xfce) [atleast as your parent distribution] - This should be the default mantra for beginners as it simplifies their Linux journey to a great extent.
+    """)
+    
+    st.subheader("NOTE")
+    st.markdown("""
+    All of the distros on distrowatch.com are accounted for here. The distros with no subreddits are listed in the "No Subreddits.txt" file in this project's repo. If there's a distro that's not present in DistroWatch but you wish it to be added here, it won't be, because if a distro is so niche that it's not even listed on DistroWatch, then it's not worth adding.
+
+    This list of distributions is as comprehensive as possible. Every distro's subreddit presence is manually vetted and checked thoroughly, and ONLY when its absence is confirmed on Reddit (no subreddit of it exists) was it included in the "No Subreddits.txt" file.
+
+    Also, some questions arise in users' minds, like how accurate is Reddit's member count for a distro's popularity? If we somehow solved that problem, then another problem that we need to account for no.of subreddits created for a particular distro and then how do we rank order the distros based on this and how many unique and non-overlpapping with these new subreddits accounts are there in each subreddit and how many of them are fake accounts or bots and then we need to account for multiple sources and give weights to how much accurate they are .... ANDDDD it becomes a research project! This is a never-ending thing.
+
+    This does not necessarily reflect the true usage of these Linux distributions, but it can be considered a good, rough, educated "guess."
+    
+    All opinions expressed here are intended to be taken as such - opinions, and you are free to disregard them if you disagree, although I have endeavored to remain as objective as possible.
     """)
