@@ -1,6 +1,8 @@
+ArchEX
 EasyOS
 Bluestar Linux
 ClearLinux
+Ctlos Linux
 Voyager Live
 Linuxfx
 PCLinuxOS
@@ -61,6 +63,7 @@ NethSecurity
 Pisi Linux
 Refracta
 MIRACLE LINUX
+MSYS2
 Neptune
 openEuler
 Pentoo
