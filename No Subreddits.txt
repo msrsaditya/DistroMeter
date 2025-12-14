@@ -1,4 +1,5 @@
 ArchEX
+AnarchyLinux
 EasyOS
 Bluestar Linux
 ClearLinux
@@ -131,3 +132,12 @@ MAX: Madrid_Linux
 
 243 (Total in Distrowatch) - 126 (No Subreddits) = 117
 117 + 17 (Not in Distrowatch) = 134 (Total No.Of Distributions)
+
+Update:
+
+Total in Distrowatch = 361
+No Subreddits = 131
+
+- Need to account for additional distros in new total
+- Need to get correct stats for everything
+- A way to track newly added distros with 'Linux', 'x86_64' and 'Active' and so on...

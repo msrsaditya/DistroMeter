@@ -5,7 +5,6 @@ distros=(
     "AlmaLinux"
     "AlpineLinux"
     "AltLinux"
-    "AnarchyLinux"
     "antergos"
     "antiXLinux"
     "archbang"
